@@ -13,12 +13,12 @@
 		@content;
 	}
 }
-@mixin phone {
+@mixin mobile {
 	@media (max-width: 576px) {
 		@content;
 	}
 }
-@mixin small-phone {
+@mixin small-mobile {
 	@media (max-width: 380px) {
 		@content;
 	}
